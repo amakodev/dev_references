@@ -1,0 +1,12 @@
+//Convert to readme
+
+docs: https://firebase.google.com/docs/functions/typescript
+
+- Run firebase init functions in a new directory. The tool gives you options to build the project with JavaScript or TypeScript.
+- ...
+- run firebase deploy to deploy live
+
+Emulating TypeScript functions
+To test TypeScript functions locally, you can use the emulation tools described in Run functions locally. 
+It's important to compile your code before using these tools, so make sure to run npm run build inside your functions directory before running firebase emulators:start or firebase functions:shell. 
+Alternatively, run npm run serve or npm run shell as a shortcut; these commands both run the build and serve/start the functions shell.
